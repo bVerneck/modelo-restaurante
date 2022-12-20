@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurante dos Fellas</title>
+  </head>
+  <style>
+    body {
+      width: 90%;
+      margin: auto;
+      font-size: 1.3em;
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      line-height: 1.3em;
+      border: 1px dashed #ccc;
+      padding: 20px;
+    }
+    figure {
+      padding: 15px;
+    }
+    hearder * {
+      font-size: 1.6em;
+      font-weight: 600;
+    }
+    hearder img {
+      width: 80px;
+    }
+    select {
+      font-size: 0.78em;
+    }
+    #reserva {
+      width: 50%;
+      font-weight: 40;
+    }
+  </style>
+  <body>
+    <header>
+      <span>Restaurane fallas</span>
+      <img src="../images/svg/cenoura.svg" width="80" /> <br />
+      <img
+        src="../images/salmon-1312372.jpg"
+        alt="salmon-1312372"
+        style="width: 40%"
+      />
+      <nav>
+        <ul>
+          <a href="#sobre">Sobre</a>
+          |
+          <a href="#pratos">Pratos</a>
+          |
+          <a href="#Reserva">Reserva</a>
+          |
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <article id="sobre">
+          <h2>Sobre Nos</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus,
+            saepe totam voluptate quo quas veritatis repellat quod quisquam
+            nulla, cum possimus dicta ab molestias, neque minima est adipisci
+            quia voluptatibus odit at aliquid amet dolorem incidunt quidem.
+            Libero aspernatur atque placeat repellat beatae tempore fugiat
+            voluptatibus, tenetur minima dicta. Quis, animi in atque harum ut
+            totam eos provident necessitatibus? Sint necessitatibus impedit
+            culpa quibusdam ullam qui explicabo nihil recusandae dolores magnam,
+            vel corrupti odit, a iure officia nostrum quisquam ipsam laborum
+            quae saepe! Possimus vero consequuntur laudantium, dolores quidem
+            excepturi accusamus cum amet numquam corporis debitis earum sed.
+            Obcaecati repudiandae similique quo, at vitae cum sapiente
+            aspernatur laboriosam asperiores? Nesciunt distinctio similique quis
+            est tenetur dolorum corrupti illo corporis ipsam.
+          </p>
+          <img
+            src="../images/here-take-a-look-at-our-menu.jpg"
+            alt="Sobreos"
+            width="800"
+          />
+          <img src="../images/chef-939437_1920.jpg" alt="Sobreos" width="800" />
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+            vel placeat doloremque expedita tenetur quibusdam dolore atque, quam
+            delectus tempore accusamus laudantium at perferendis repudiandae
+            pariatur rerum nostrum illo odit ratione necessitatibus adipisci
+            reprehenderit, dolores consequatur quis. Natus et, eius nemo facilis
+            repellat id doloremque aspernatur, nesciunt, illo eveniet sunt nisi
+            neque necessitatibus ipsam voluptatum incidunt ullam sit officiis
+            delectus tenetur? Omnis nesciunt exercitationem saepe voluptate
+            nihil placeat, minus sint sit animi unde facere modi. Labore
+            molestiae exercitationem est optio.
+          </p>
+          <hr />
+        </article>
+        <article id="pratos">
+          <h2>Coma De Montão</h2>
+          <table>
+            <tr>
+              <td width="25%">
+                <img
+                  src="../images/baked-salmon-garnished-with-asparagus-and-tomatoes-with-herbs.jpg"
+                  alt=""
+                  width="100%"
+                />
+                <h3>Salmão Grelhado</h3>
+                <p>R$ 80,00</p>
+                <p>No Almoço</p>
+              </td>
+
+              <td width="25%">
+                <img
+                  src="../images/authentic-italian-pasta.jpg"
+                  alt=""
+                  width="100%"
+                />
+                <h3>Espaguete</h3>
+                <p>R$ 70,00</p>
+                <p>No Almoço</p>
+              </td>
+              <td></td>
+              <td></td>
+
+              <td width="25%">
+                <img
+                  src="../images/frutas-e-vegetais.jpg"
+                  alt=""
+                  width="100%"
+                />
+                <h3>Frutas e Vegetais</h3>
+                <p>R$ 29,90</p>
+                <p>No Almoço</p>
+              </td>
+
+              <td width="25%">
+                <img
+                  src="../images/pizza-pepperoni-on-the-table.jpg"
+                  alt=""
+                  width="100%"
+                />
+                <h3>Pizza</h3>
+                <p>R$ 75,00</p>
+                <p>na Janta</p>
+              </td>
+            </tr>
+          </table>
+          <hr />
+        </article>
+        <article id="reserva">
+          <h2>VEM COM A GENTE</h2>
+
+          <form action="" method="post" enctype="multipart/form-data" width="30%">
+            <fieldset>
+              <legend>faça todos campos</legend>
+              <ul>
+                <li>
+                  <label for="nome">Nome</label>
+                  <input type="text" id="nome" name="nome" required />
+                </li>
+                <hr />
+                <li>
+                  <label for="nome">email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                    placeholder="Coloquei seu email seu merda"
+                  />
+                </li>
+                <hr />
+                <li>
+                  <label for="number ">Quantas Pessoas</label>
+                  <input
+                    type="number"
+                    id="number"
+                    name="number"
+                    min="1"
+                    max="12"
+                    required
+                  />
+                </li>
+                <hr />
+                <li>
+                  <label for="entrada">Escolha oque voce gostaria</label>
+                  <input list="entrada_opt" name="entrada" id="entrada" />
+                  <datalist id="entrada_opt">
+                    <option value="caldo ">Caldo de Mandioca</option>
+                    <option value="calabrasa">calabresa frita</option>
+                    <option value="Carne falsa">Carne de SOjado</option>
+                  </datalist>
+                </li>
+                <hr />
+
+                <li>
+                  <label for="foto ">Foto Do aniversariante</label>
+                  <input type="file" id="foto" name="foto" />
+                </li>
+                <hr />
+                <li>
+                  <label for="comida">cozinha</label>
+                  <select name="comidaa" id="comidas">
+                    <option value="...">...</option>
+                    <!-- <option value="comida brasileira">comida brasileira</option> -->
+                    <optgroup label="Brasileira">
+                      <option value="feijoada">feijoada</option>
+                      <option value="espeto de gato">espetinho De Gato</option>
+                    </optgroup>
+                    <option value="Comida itatiana">comida italiana</option>
+                  </select>
+                </li>
+                <hr />
+                <li>
+                  <label for="data">Data Do Aniversario</label>
+                  <input type="date" id="data" name="data" />
+                </li>
+                <hr />
+                <li>
+                  <label for="servicos">Servios a mais</label> <br />
+                  <input type="checkbox" name="serivcos" id="musicos" /> Musicos
+                  <input type="checkbox" name="serivcos" id="balarianas" />
+                  balarianas
+                  <input type="checkbox" name="serivcos" id="careta" /> Carreta
+                  Furacão
+                </li>
+                <br />
+                <li>
+                  <label for="Bolo"
+                    >Opões de bolo <br />
+                    <input type="radio" name="bolo" id="bolop" /> Bolo da sua
+                    casa
+                    <input type="radio" name="bolo" id="bolom" checked />Bolo da
+                    nossa casa
+                  </label>
+                </li>
+                <hr />
+
+                <li>
+                  <label for="cor">Tema da festa</label>
+                  <input type="color" name="cor" id="cor" value="#ff00ff" />
+                </li>
+                <hr />
+                <li>
+                  <label for="comentario">Comentario</label> <br />
+                  <textarea
+                    name="comentarios"
+                    id=""
+                    cols="30"
+                    rows="10"
+                  ></textarea>
+                </li>
+                <hr />
+                <li>
+                  <input
+                    type="image"
+                    src="../images/png/btn_bolo.png"
+                    alt="Confirmar"
+                    width="200"
+                  />
+                </li>
+              </ul>
+            </fieldset>
+          </form>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <br />
+      <table>
+        <tr>
+          <td width="50%">
+            <p>
+              nossoemail@gmail.com
+            </p>
+            <p>
+              +55 11 999xxx-33xx
+            </p>
+            <img src="../images/facebook.png" alt="" width="30">
+            <img src="../images/instagram.png" alt="" width="30">
+            <img src="../images/linkedin.png" alt="" width="30">
+            <img src="../images/whatsapp.png" alt="" width="30">
+          </td>
+          <td width="40%">
+            <form action="" method="post">
+              <fieldset>
+                <legend>Precisa de Ajuda?</legend>
+                <ul>
+                  <li>
+                    <label for="nome_mensagem">Nome:</label>
+                    <input
+                      type="text"
+                      name="nome_mensagem"
+                      id="nome_Mensagem"
+                      placeholder="Seu Nome"
+                      required
+                    />
+                  </li>
+                  <li>
+                    <label for="nome_mensagem">Email:</label>
+                    <input
+                      type="email"
+                      name="email_mensagem"
+                      id="email_Mensagem"
+                      placeholder="Seu Email"
+                      required
+                    />
+                  </li>
+                  <li>
+                    <label for="telefone_mensagem">Telefone:</label>
+                    <input
+                      type="text"
+                      name="telefone_mensagem"
+                      id="telefone_Mensagem"
+                      placeholder="Seu telefone"
+                      required
+                    />
+                  </li>
+                  <li>
+                    <button>Enviar</button>
+                  </li>
+                </ul>
+              </fieldset>
+            </form>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2"><p>&copy;2023 - Todos Direitos Meus</p></td>
+        </tr>
+      </table>
+    </footer>
+  </body>
+</html>
