@@ -5,6 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Restaurante dos Fellas</title>
+    <link rel="stylesheet" href="../src/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <style>
     body {
@@ -23,41 +34,46 @@
       font-size: 1.6em;
       font-weight: 600;
     }
-    hearder img {
-      width: 80px;
-    }
+
     select {
       font-size: 0.78em;
-    }
-    #reserva {
-      width: 50%;
-      font-weight: 40;
     }
   </style>
   <body>
     <header>
-      <span>Restaurane fallas</span>
-      <img src="../images/svg/cenoura.svg" width="80" /> <br />
-      <img
-        src="../images/salmon-1312372.jpg"
-        alt="salmon-1312372"
-        style="width: 40%"
-      />
-      <nav>
+      <div class="navpos">
+        <ul>
+          <li><a href="#sobre"><i class="fa fa-id-card" aria-hidden="true"></i> sobre</a></li>
+          <li><a href="#pratos"><i class="fa fa-cutlery" aria-hidden="true"></i> Pratos</a></li>
+          <li><a href="#reserva" alt="Reserva"><i class="fa fa-calendar" aria-hidden="true"></i>Reseve</a></li>
+        </ul>
+      </div>
+      <div class="logo">
+        <img src="../images/svg/cenoura.svg" width="80" />
+        <span><b>Restaurane fallas</b></span>
+        <div>
+          <img
+            src="../images/salmon-1312372.jpg"
+            alt="salmon-1312372"
+            class="logoimg"
+          />
+        </div>
+        <p class="lobster">COMA TUDO QUE CONSEGUIR</p>
+      </div>
+      <nav class="nav1" id="navbar">
         <ul>
           <a href="#sobre">Sobre</a>
-          |
+
           <a href="#pratos">Pratos</a>
-          |
-          <a href="#Reserva">Reserva</a>
-          |
+
+          <a href="#reserva">Reserva</a>
         </ul>
       </nav>
     </header>
     <main>
       <section>
         <article id="sobre">
-          <h2>Sobre Nos</h2>
+          <h2 class="h2color">Sobre Nos</h2>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus,
             saepe totam voluptate quo quas veritatis repellat quod quisquam
@@ -92,9 +108,19 @@
             nihil placeat, minus sint sit animi unde facere modi. Labore
             molestiae exercitationem est optio.
           </p>
-          <hr />
+          <ul class="lista01">
+            <li>para sua festa de aniversario</li>
+            <li>para sua festa de amigos</li>
+            <li>para seu casamento</li>
+          </ul>
+          <div class="navup">
+            <a href="#navbar"
+              ><i class="fa fa-arrow-up" aria-hidden="true"></i
+            ></a>
+          </div>
         </article>
-        <article id="pratos">
+        <h />
+        <article class="pratoss" id="pratos">
           <h2>Coma De Montão</h2>
           <table>
             <tr>
@@ -145,12 +171,24 @@
               </td>
             </tr>
           </table>
+
+          <div class="navup">
+            <a href="#navbar"
+              ><i class="fa fa-arrow-up" aria-hidden="true"></i
+            ></a>
+          </div>
           <hr />
         </article>
         <article id="reserva">
           <h2>VEM COM A GENTE</h2>
+          <span>TUDO MUITO BARATO</span>
 
-          <form action="" method="post" enctype="multipart/form-data" width="30%">
+          <form
+            action=""
+            method="post"
+            enctype="multipart/form-data"
+            width="30%"
+          >
             <fieldset>
               <legend>faça todos campos</legend>
               <ul>
@@ -263,6 +301,11 @@
             </fieldset>
           </form>
         </article>
+        <div class="navup">
+          <a href="#navbar"
+            ><i class="fa fa-arrow-up" aria-hidden="true"></i
+          ></a>
+        </div>
       </section>
     </main>
     <footer>
@@ -270,16 +313,17 @@
       <table>
         <tr>
           <td width="50%">
-            <p>
-              nossoemail@gmail.com
-            </p>
-            <p>
-              +55 11 999xxx-33xx
-            </p>
-            <img src="../images/facebook.png" alt="" width="30">
-            <img src="../images/instagram.png" alt="" width="30">
-            <img src="../images/linkedin.png" alt="" width="30">
-            <img src="../images/whatsapp.png" alt="" width="30">
+            <p>nossoemail@gmail.com</p>
+            <p>+55 11 999xxx-33xx</p>
+            <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+            <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+            <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+            <i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i>
+
+            <!-- <img src="../images/facebook.png" alt="" width="30" />
+            <img src="../images/instagram.png" alt="" width="30" />
+            <img src="../images/linkedin.png" alt="" width="30" />
+            <img src="../images/whatsapp.png" alt="" width="30" /> -->
           </td>
           <td width="40%">
             <form action="" method="post">

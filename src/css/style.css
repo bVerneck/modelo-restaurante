@@ -1,0 +1,128 @@
+/* LOGO */
+div.logo {
+  width: 40vw;
+  min-width: 350px;
+  text-align: center;
+  margin-bottom: 12px;
+  background-color: rgb(255, 0, 0);
+  color: lightsteelblue;
+  border-radius: 12px 0 12px 0;
+}
+div.logo span {
+  font-family: "Lobster", cursive;
+  font-size: 200%;
+  letter-spacing: 0.4rem;
+}
+
+div img.logoimg {
+  width: 50%;
+}
+
+/* HEADER */
+
+header img {
+  vertical-align: middle;
+}
+
+header div {
+  background-color: rgb(255, 255, 255);
+  color: azure;
+  padding: 0 0 0 0px;
+}
+
+h2 + span {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+/* FORMULARIOS */
+textarea {
+  border-radius: 12px;
+}
+input[type="radio"] {
+  accent-color: red;
+}
+
+/* CLASSE */
+.lobster {
+  font-family: "Lobster", cursive;
+}
+.h2color {
+  color: brown;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.pratoss h2 {
+  text-align: center;
+}
+
+/* ARTIGO */
+article {
+  min-height: 100vh;
+  padding: 40px 0 0 0;
+}
+article#pratos p {
+  color: rgb(0, 0, 0);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0 0 0 0;
+}
+
+/* TAGS */
+h2 {
+  color: rgb(255, 0, 0);
+}
+p::first-letter {
+  font-size: 1.8rem;
+  font-weight: 900;
+}
+/* ul.lista01{
+  list-style-image :url(../../images/viewport.png) ;
+ 
+} */
+
+/* navegação */
+nav {
+  margin: 0 0 70px 0;
+}
+nav.nav1 a:hover {
+  color: rgb(0, 0, 0);
+}
+nav.nav1 ul a {
+  display: inline-block;
+  background-color: rgb(255, 255, 255);
+  padding: 12px 22px;
+  color: rgb(255, 0, 0);
+  border: 2px solid red;
+  border-radius: 12px 12px 12px 12px;
+}
+div.navup i {
+  color: red;
+  cursor: pointer;
+}
+div.navup {
+  text-align: center;
+}
+div.navpos {
+  background-color: red;
+  width: 120px;
+  height: 120px;
+  position: fixed;
+  bottom: 50vh;
+  left: 199.5vh;
+  border-radius: 12px 0px 0px 12px;
+  
+}
+div.navpos a {
+  color: azure;
+ 
+  
+}
+
+div.navpos a:hover {
+  color: black;
+}
+
+ 
+ 
+
