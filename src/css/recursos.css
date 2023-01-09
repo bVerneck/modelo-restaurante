@@ -1,0 +1,41 @@
+/* Recursos CSS */
+.boxPadrao{
+    padding: 3%;
+    width: 50%;
+    margin: 10vh auto;
+    border-radius: 12px;
+}
+.bordaPadrao{
+    border:  1px solid rgb(139, 135, 135);
+}
+
+.sombraPadrao{
+    box-shadow: 10px 10px 2px rgb(156, 156, 156);
+}
+.labelPadrao{
+    font-size: 1.5rem;
+    
+}
+.textCenter{
+    text-align: center;
+}
+.inputPadrao{
+    width: 100%;
+    border: none;
+    outline: none;
+}
+.bgPadrao{
+    background-color: rgb(190, 190, 190);
+}
+.btn{
+    padding: 1.5%;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 12px;
+    display: inline-block;
+    cursor: pointer;
+}
+.btnPadrao{
+    box-shadow: inset -3px -3px 3px blueviolet;
+    color: white;
+}

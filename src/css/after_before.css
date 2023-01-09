@@ -1,0 +1,18 @@
+li.lista01::before {
+  content: ">";
+}
+
+li.lista01::after {
+  content: "_";
+}
+ul {
+  list-style: none;
+}
+li.lista02::before{
+    display: inline-block;
+    content:"" ;
+    width: 20px;
+    height: 10px;
+    background-color: bisque;
+    border-radius: 50%;
+}

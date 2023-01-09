@@ -1,21 +1,71 @@
+/* TAGS */
+h2 {
+  color: rgb(255, 0, 0);
+}
+p::first-letter {
+  font-size: 1.8rem;
+  font-weight: 900;
+}
+body {
+  width: 90%;
+  margin: auto;
+  font-size: 1.3em;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  line-height: 1.3em;
+  border: 1px dashed #ccc;
+  padding: 20px;
+  background-image: url(../../images/healthy-vegetables-dryfruits-oil-raw-fish-wooden-table.jpg);
+  background-size: contain;
+}
+figure {
+  padding: 15px;
+}
+hearder * {
+  font-size: 1.6em;
+  font-weight: 600;
+}
+
+select {
+  font-size: 0.78em;
+}
+table {
+  border: 1px solid rgb(0, 0, 0);
+  width: 80%;
+  margin: 80px auto;
+  border-collapse: collapse;
+  color: rgb(0, 0, 0);
+  border-bottom-width: 4px;
+}
+table th {
+  text-align: left;
+}
+table td,
+table th {
+  border: 1px solid rgb(5, 5, 5);
+  padding: 1%;
+}
+table tr:nth-child(even) {
+  background-color: rgb(255, 0, 0);
+}
+table tr:nth-of-type(1) {
+  background-color: rgb(168, 164, 164);
+}
+
 /* LOGO */
 div.logo {
-  width: 40vw;
+  width: 28vw;
   min-width: 350px;
   text-align: center;
   margin-bottom: 12px;
   background-color: rgb(255, 0, 0);
-  color: lightsteelblue;
-  border-radius: 12px 0 12px 0;
+  color: rgb(255, 255, 255);
+  border-radius: 12px 12px 12px 12px;
+  padding: 0 31.33% 0 0;
 }
 div.logo span {
   font-family: "Lobster", cursive;
   font-size: 200%;
   letter-spacing: 0.4rem;
-}
-
-div img.logoimg {
-  width: 50%;
 }
 
 /* HEADER */
@@ -56,30 +106,68 @@ input[type="radio"] {
 .pratoss h2 {
   text-align: center;
 }
+.pratos02 {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  color: rgb(255, 0, 0);
+}
+.pratos02 h3:hover {
+  color: rgb(0, 0, 0);
+}
+.pratos02 div p {
+  color: rgb(255, 0, 0) !important;
+}
 
 /* ARTIGO */
 article {
   min-height: 100vh;
   padding: 40px 0 0 0;
+  background-color: rgb(255, 255, 255, 0.7);
 }
 article#pratos p {
   color: rgb(0, 0, 0);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0 0 0 0;
 }
+.sobrenos01 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.logoimg {
+  display: grid;
+  grid-template-columns: 50% 50% 50% 50%;
+}
+article#frutosmar {
+  background-image: url(../../images/food-gcdf29df87_1920.jpg);
+  background-size: cover;
+  position: relative;
+  z-index: 2;
+}
+article#frutosmar span {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  color: rgb(255, 255, 255);
+  font-size: 5rem;
+  font-family: "lobster", cursive;
+  line-height: 5rem;
+  text-shadow: 1px 1px 3px rgb(0, 0, 0);
+}
+article#frutosmar img.laranja {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10%;
+  transform: scale(0.2);
+  animation: laranja 2s infinite;
+}
+article#reserva h2, span{
+  padding: 0 0 0 40%;
 
-/* TAGS */
-h2 {
-  color: rgb(255, 0, 0);
 }
-p::first-letter {
-  font-size: 1.8rem;
-  font-weight: 900;
+article#reserva span{
+  padding: 0 0 0 50%;
 }
-/* ul.lista01{
-  list-style-image :url(../../images/viewport.png) ;
- 
-} */
 
 /* navegação */
 nav {
@@ -90,7 +178,7 @@ nav.nav1 a:hover {
 }
 nav.nav1 ul a {
   display: inline-block;
-  background-color: rgb(255, 255, 255);
+
   padding: 12px 22px;
   color: rgb(255, 0, 0);
   border: 2px solid red;
@@ -108,21 +196,63 @@ div.navpos {
   width: 120px;
   height: 120px;
   position: fixed;
-  bottom: 50vh;
-  left: 199.5vh;
+  bottom: 50%;
+  left: 89.7%;
   border-radius: 12px 0px 0px 12px;
-  
+  z-index: 1;
 }
 div.navpos a {
   color: azure;
- 
-  
 }
 
 div.navpos a:hover {
   color: black;
 }
+div#imgfooter div img {
+  border-radius: 50%;
+}
 
- 
- 
+/* animation */
+@keyframes laranja {
+  0% {
+    transform: rotate(0deg) scale(0.2);
+  }
+  100% {
+    transform: rotate(20deg) scale(1);
+  }
+}
+/* FORM */
+datalist,
+textarea,
+input:not([type="checkbox"]):not([type="radio"]):not([type="date"]):not(
+    [type="image"]
+  ):not([type="color"]) {
+  width: 90%;
+  padding: 0.5%;
+  font-size: 1.2rem;
+  border-radius: 12px;
+  border: none;
+  box-shadow: 1px 1px 2px #eee, -1px -1px 2px #eee;
+  
+}
 
+textarea:focus,
+input:focus {
+  outline: none;
+
+}
+label {
+  display: block;
+  margin: 10px 0;
+  padding: 0 0 0 0px;
+}
+form#reserva {
+  margin: 80px auto;
+}
+form#reserva ul {
+  list-style: none;
+}
+fieldset{
+  border: 2px solid rgb(189, 11, 11);
+  padding: 0 0 0 200px;
+}

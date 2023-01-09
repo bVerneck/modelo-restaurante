@@ -1,0 +1,23 @@
+:root{
+    --m1:0 auto
+}
+
+div#banner {
+  background-color: beige;
+  text-align: center;
+  padding: 10px 0;
+  position: absolute;
+  width: calc(100% - 100px);
+  left: 50px;
+  top: 40%;
+}
+h1 {
+  font-size: calc(1.5rem + 3vw);
+}
+div#banner2 {
+  background-color: rgb(70, 219, 230);
+  text-align: center;
+  padding: 10px 0;
+  max-width: (50%, 300px);
+  margin: var(--m1);
+}

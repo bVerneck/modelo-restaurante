@@ -17,46 +17,53 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
   </head>
-  <style>
-    body {
-      width: 90%;
-      margin: auto;
-      font-size: 1.3em;
-      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-      line-height: 1.3em;
-      border: 1px dashed #ccc;
-      padding: 20px;
-    }
-    figure {
-      padding: 15px;
-    }
-    hearder * {
-      font-size: 1.6em;
-      font-weight: 600;
-    }
 
-    select {
-      font-size: 0.78em;
-    }
-  </style>
   <body>
     <header>
       <div class="navpos">
         <ul>
-          <li><a href="#sobre"><i class="fa fa-id-card" aria-hidden="true"></i> sobre</a></li>
-          <li><a href="#pratos"><i class="fa fa-cutlery" aria-hidden="true"></i> Pratos</a></li>
-          <li><a href="#reserva" alt="Reserva"><i class="fa fa-calendar" aria-hidden="true"></i>Reseve</a></li>
+          <li>
+            <a href="#sobre"
+              ><i class="fa fa-id-card" aria-hidden="true"></i> sobre</a
+            >
+          </li>
+          <li>
+            <a href="#pratos"
+              ><i class="fa fa-cutlery" aria-hidden="true"></i> Pratos</a
+            >
+          </li>
+          <li>
+            <a href="#reserva" alt="Reserva"
+              ><i class="fa fa-calendar" aria-hidden="true"></i>Reseve</a
+            >
+          </li>
         </ul>
       </div>
       <div class="logo">
         <img src="../images/svg/cenoura.svg" width="80" />
-        <span><b>Restaurane fallas</b></span>
-        <div>
-          <img
-            src="../images/salmon-1312372.jpg"
-            alt="salmon-1312372"
-            class="logoimg"
-          />
+        <span>Restaurane fallas</span>
+        <div class="logoimg">
+          <div>
+            <img
+              src="../images/salmon-1312372.jpg"
+              alt="salmon-1312372"
+              class="logoimg"
+              width="100%"
+            />
+          </div>
+          <div>
+            <img src="../images/coxinha_215.jpg" alt="" width="100%" />
+          </div>
+          <div>
+            <img
+              src="../images/vegetable-skewer-3317060_1280.jpg"
+              alt=""
+              width="100%"
+            />
+          </div>
+          <div>
+            <img src="../images/chef-939437_1920.jpg" alt="" width="100%" />
+          </div>
         </div>
         <p class="lobster">COMA TUDO QUE CONSEGUIR</p>
       </div>
@@ -90,12 +97,23 @@
             aspernatur laboriosam asperiores? Nesciunt distinctio similique quis
             est tenetur dolorum corrupti illo corporis ipsam.
           </p>
-          <img
-            src="../images/here-take-a-look-at-our-menu.jpg"
-            alt="Sobreos"
-            width="800"
-          />
-          <img src="../images/chef-939437_1920.jpg" alt="Sobreos" width="800" />
+          <div class="sobrenos01">
+            <div>
+              <img
+                src="../images/here-take-a-look-at-our-menu.jpg"
+                alt="Sobreos"
+                width="100%"
+              />
+            </div>
+            <div>
+              <img
+                src="../images/chef-939437_1920.jpg"
+                alt="Sobreos"
+                width="100%"
+              />
+            </div>
+          </div>
+
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam
             vel placeat doloremque expedita tenetur quibusdam dolore atque, quam
@@ -122,55 +140,47 @@
         <h />
         <article class="pratoss" id="pratos">
           <h2>Coma De Montão</h2>
-          <table>
-            <tr>
-              <td width="25%">
-                <img
-                  src="../images/baked-salmon-garnished-with-asparagus-and-tomatoes-with-herbs.jpg"
-                  alt=""
-                  width="100%"
-                />
-                <h3>Salmão Grelhado</h3>
-                <p>R$ 80,00</p>
-                <p>No Almoço</p>
-              </td>
+          <div class="pratos02">
+            <div width="25%">
+              <img
+                src="../images/baked-salmon-garnished-with-asparagus-and-tomatoes-with-herbs.jpg"
+                alt=""
+                width="100%"
+              />
+              <h3>Salmão Grelhado</h3>
+              <p>R$ 80,00</p>
+              <p>No Almoço</p>
+            </div>
 
-              <td width="25%">
-                <img
-                  src="../images/authentic-italian-pasta.jpg"
-                  alt=""
-                  width="100%"
-                />
-                <h3>Espaguete</h3>
-                <p>R$ 70,00</p>
-                <p>No Almoço</p>
-              </td>
-              <td></td>
-              <td></td>
+            <div width="25%">
+              <img
+                src="../images/authentic-italian-pasta.jpg"
+                alt=""
+                width="100%"
+              />
+              <h3>Espaguete</h3>
+              <p>R$ 70,00</p>
+              <p>No Almoço</p>
+            </div>
 
-              <td width="25%">
-                <img
-                  src="../images/frutas-e-vegetais.jpg"
-                  alt=""
-                  width="100%"
-                />
-                <h3>Frutas e Vegetais</h3>
-                <p>R$ 29,90</p>
-                <p>No Almoço</p>
-              </td>
+            <div width="25%">
+              <img src="../images/frutas-e-vegetais.jpg" alt="" width="100%" />
+              <h3>Frutas e Vegetais</h3>
+              <p>R$ 29,90</p>
+              <p>No Almoço</p>
+            </div>
 
-              <td width="25%">
-                <img
-                  src="../images/pizza-pepperoni-on-the-table.jpg"
-                  alt=""
-                  width="100%"
-                />
-                <h3>Pizza</h3>
-                <p>R$ 75,00</p>
-                <p>na Janta</p>
-              </td>
-            </tr>
-          </table>
+            <div width="25%">
+              <img
+                src="../images/pizza-pepperoni-on-the-table.jpg"
+                alt=""
+                width="100%"
+              />
+              <h3>Pizza</h3>
+              <p>R$ 75,00</p>
+              <p>na Janta</p>
+            </div>
+          </div>
 
           <div class="navup">
             <a href="#navbar"
@@ -178,6 +188,38 @@
             ></a>
           </div>
           <hr />
+          <table>
+            <tr>
+              <th>pratos</th>
+              <th>Sobremesas</th>
+              <th>Bebidas</th>
+              <th>acompanhamento</th>
+            </tr>
+            <tr>
+              <td>Picanha</td>
+              <td>sorvete</td>
+              <td>Salada</td>
+              <td>agua com Gas</td>
+            </tr>
+            <tr>
+              <td>feijoada</td>
+              <td>bolo de limão</td>
+              <td>fritas</td>
+              <td>agua sem gas</td>
+            </tr>
+            <tr>
+              <td>Pasta italiana</td>
+              <td>bolo de laranja</td>
+              <td>Bacon</td>
+              <td>suco de laranja</td>
+            </tr>
+            <tr>
+              <td>Baião de dois</td>
+              <td>Brigadeiro</td>
+              <td>Creme de alho</td>
+              <td>Caldo de cana</td>
+            </tr>
+          </table>
         </article>
         <article id="reserva">
           <h2>VEM COM A GENTE</h2>
@@ -188,15 +230,16 @@
             method="post"
             enctype="multipart/form-data"
             width="30%"
+            id="#reserva03"
           >
             <fieldset>
-              <legend>faça todos campos</legend>
+              <legend>Reserve Ja :)</legend>
               <ul>
                 <li>
                   <label for="nome">Nome</label>
                   <input type="text" id="nome" name="nome" required />
                 </li>
-                <hr />
+              
                 <li>
                   <label for="nome">email</label>
                   <input
@@ -207,7 +250,7 @@
                     placeholder="Coloquei seu email seu merda"
                   />
                 </li>
-                <hr />
+
                 <li>
                   <label for="number ">Quantas Pessoas</label>
                   <input
@@ -219,7 +262,7 @@
                     required
                   />
                 </li>
-                <hr />
+
                 <li>
                   <label for="entrada">Escolha oque voce gostaria</label>
                   <input list="entrada_opt" name="entrada" id="entrada" />
@@ -229,13 +272,12 @@
                     <option value="Carne falsa">Carne de SOjado</option>
                   </datalist>
                 </li>
-                <hr />
 
                 <li>
                   <label for="foto ">Foto Do aniversariante</label>
                   <input type="file" id="foto" name="foto" />
                 </li>
-                <hr />
+                
                 <li>
                   <label for="comida">cozinha</label>
                   <select name="comidaa" id="comidas">
@@ -248,12 +290,12 @@
                     <option value="Comida itatiana">comida italiana</option>
                   </select>
                 </li>
-                <hr />
+
                 <li>
                   <label for="data">Data Do Aniversario</label>
                   <input type="date" id="data" name="data" />
                 </li>
-                <hr />
+
                 <li>
                   <label for="servicos">Servios a mais</label> <br />
                   <input type="checkbox" name="serivcos" id="musicos" /> Musicos
@@ -272,13 +314,12 @@
                     nossa casa
                   </label>
                 </li>
-                <hr />
 
                 <li>
                   <label for="cor">Tema da festa</label>
                   <input type="color" name="cor" id="cor" value="#ff00ff" />
                 </li>
-                <hr />
+               
                 <li>
                   <label for="comentario">Comentario</label> <br />
                   <textarea
@@ -288,7 +329,7 @@
                     rows="10"
                   ></textarea>
                 </li>
-                <hr />
+
                 <li>
                   <input
                     type="image"
@@ -300,6 +341,10 @@
               </ul>
             </fieldset>
           </form>
+        </article>
+        <article id="frutosmar">
+          <span>Frutos do Mar</span>
+          <img class="laranja" src="../images/png/orange.png" alt="" />
         </article>
         <div class="navup">
           <a href="#navbar"
